@@ -1,10 +1,11 @@
-name: Validate
+name: Validateee
 on:
   workflow_call:
 
 jobs:
 
   validate:
+    name: Analyze & Test
     runs-on: ubuntu-latest
 
     steps:
