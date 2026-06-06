@@ -9,7 +9,6 @@ on:
 jobs:
 
   validate:
-    name: Analyze & Test
     uses: ./.github/workflows/reusable-validate.yml
 
   build_web:
